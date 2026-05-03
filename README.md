@@ -14,7 +14,6 @@
 
 This project was built as a submission for **PromptWars: Virtual** — a bi-weekly AI hackathon by **Google × Hack2Skill** — using **Google Antigravity** (intent-driven / vibe coding) instead of traditional manual coding.
 
----
 
 ## ✨ Features
 
@@ -27,12 +26,10 @@ This project was built as a submission for **PromptWars: Virtual** — a bi-week
 - 📱 **Responsive Design** — Works seamlessly on desktop and mobile
 - ⚖️ **Strictly Neutral** — The platform does not endorse any party or candidate; all reviews reflect user opinions only
 
----
 
 ### View Live
 👉 [https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates](https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates)
 
----
 
 ## ⚠️ Disclaimer
 
