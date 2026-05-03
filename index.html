@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Bengal Elections Info & Candidate Reviews</title>
+    <meta name="description" content="Explore West Bengal election candidates, leave reviews, and view past election results.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js for beautiful graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo"><i class="fa-solid fa-check-to-slot"></i> BengalPolls</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#candidates">Candidates & Reviews</a></li>
+                <li><a href="#past-results">Past Results</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">West Bengal Election Tracker</h2>
+            <p class="hero-subtitle">Discover candidates in your constituency, read public reviews, and analyze historical election outcomes.</p>
+            <a href="#candidates" class="btn btn-primary">Find Your Constituency</a>
+        </div>
+        <div class="hero-graphics">
+            <!-- Decorative background elements handled by CSS -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Candidates Section -->
+        <section id="candidates" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fa-solid fa-users"></i> Constituencies & Candidates</h2>
+                    <p>Select a constituency to see the candidates and leave your feedback.</p>
+                </div>
+
+                <div class="filter-controls">
+                    <label for="constituency-select">Choose Constituency:</label>
+                    <select id="constituency-select" class="custom-select">
+                        <option value="" disabled selected>-- Select Constituency --</option>
+                        <!-- Options populated by JS -->
+                    </select>
+                </div>
+
+                <div id="candidates-container" class="candidates-grid">
+                    <!-- Cards populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Results Section -->
+        <section id="past-results" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fa-solid fa-chart-pie"></i> Past Election Results</h2>
+                    <p>Historical data for Lok Sabha and Vidhan Sabha elections in West Bengal.</p>
+                </div>
+                
+                <div class="results-toggle">
+                    <button class="btn btn-outline active" data-year="2021">2021 Assembly</button>
+                    <button class="btn btn-outline" data-year="2019">2019 Lok Sabha</button>
+                </div>
+
+                <div class="chart-container">
+                    <canvas id="resultsChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 BengalPolls. Information provided for educational and informational purposes only.</p>
+            <p class="disclaimer">This platform is strictly neutral. The reviews and ratings reflect user opinions and are not endorsed by the platform.</p>
+        </div>
+    </footer>
+
+    <!-- Review Modal -->
+    <div id="review-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-candidate-name">Candidate Name</h3>
+            <p id="modal-candidate-party" class="party-badge">Party</p>
+            
+            <div class="reviews-section">
+                <h4>Public Reviews</h4>
+                <div id="reviews-list" class="reviews-list">
+                    <!-- Reviews populated by JS -->
+                </div>
+            </div>
+
+            <div class="add-review-section">
+                <h4>Leave a Review</h4>
+                <form id="review-form">
+                    <div class="rating-input">
+                        <label>Rating:</label>
+                        <div class="stars" id="star-rating">
+                            <i class="fa-solid fa-star" data-value="1"></i>
+                            <i class="fa-solid fa-star" data-value="2"></i>
+                            <i class="fa-solid fa-star" data-value="3"></i>
+                            <i class="fa-solid fa-star" data-value="4"></i>
+                            <i class="fa-solid fa-star" data-value="5"></i>
+                        </div>
+                    </div>
+                    <input type="text" id="reviewer-name" placeholder="Your Name (Optional)" class="form-control">
+                    <textarea id="review-text" rows="3" placeholder="Write your review here..." required class="form-control"></textarea>
+                    <button type="submit" class="btn btn-primary w-100">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
