@@ -25,17 +25,12 @@ This project was built as a submission for **PromptWars: Virtual** — a bi-week
   - 2019 Lok Sabha Elections
 - 📱 **Responsive Design** — Works seamlessly on desktop and mobile
 - ⚖️ **Strictly Neutral** — The platform does not endorse any party or candidate; all reviews reflect user opinions only
-
-
-### View Live
-👉 [https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates](https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates)
-
+- 
 
 ## ⚠️ Disclaimer
 
 This platform is **strictly neutral** and is built for **educational and informational purposes only**. The reviews and ratings displayed are user-submitted opinions and are **not endorsed by the platform or the developer**. Election data is sourced from publicly available records.
 
----
 [![GitHub](https://img.shields.io/badge/GitHub-pritammondal2006-black?style=flat-square&logo=github)](https://github.com/pritammondal2006)
 
 ---
