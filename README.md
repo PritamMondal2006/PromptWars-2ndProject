@@ -29,62 +29,8 @@ This project was built as a submission for **PromptWars: Virtual** — a bi-week
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Frontend | HTML5, CSS3, JavaScript (Vanilla) |
-| Hosting | GitHub Pages |
-| AI Builder | Google Antigravity |
-| Development Style | Intent-Driven / Vibe Coding |
-
----
-
-## 🚀 Getting Started
-
 ### View Live
 👉 [https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates](https://pritammondal2006.github.io/PromptWars-2ndProject/#candidates)
-
-### Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/pritammondal2006/PromptWars-2ndProject.git
-
-# Navigate into the folder
-cd PromptWars-2ndProject
-
-# Open in your browser
-open index.html
-```
-
-No build tools or dependencies required — it's pure HTML/CSS/JS.
-
----
-
-## 🧠 How It Was Built
-
-This project was built entirely using **Google Antigravity** — Google's agentic development platform — as part of the **PromptWars: Virtual** challenge.
-
-Instead of writing every line of code manually, the entire app was architected and assembled through structured, intent-driven prompts. The focus was on:
-
-1. **Defining the problem clearly** — What do voters actually need?
-2. **Prompting iteratively** — Breaking the solution into modules and refining each
-3. **Validating functionality** — Testing the live app and course-correcting via prompts
-
-> *"The hardest part wasn't coding — it was learning to communicate clearly with AI."*
-
----
-
-## 📂 Project Structure
-
-```
-PromptWars-2ndProject/
-├── index.html          # Main application entry point
-├── style.css           # Styling and responsive layout
-├── script.js           # App logic, constituency data, reviews
-└── README.md           # You are here
-```
 
 ---
 
@@ -93,30 +39,7 @@ PromptWars-2ndProject/
 This platform is **strictly neutral** and is built for **educational and informational purposes only**. The reviews and ratings displayed are user-submitted opinions and are **not endorsed by the platform or the developer**. Election data is sourced from publicly available records.
 
 ---
-
-## 🏆 Challenge Context
-
-| Detail | Info |
-|--------|------|
-| Hackathon | PromptWars: Virtual |
-| Organizers | Google × Hack2Skill |
-| Round | Challenge 1 (pwvirtual1) |
-| Tool Used | Google Antigravity |
-| Submission Type | Technical + Narrative |
-
----
-
-## 👨‍💻 Author
-
-**Pritam Mondal**
-
 [![GitHub](https://img.shields.io/badge/GitHub-pritammondal2006-black?style=flat-square&logo=github)](https://github.com/pritammondal2006)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
